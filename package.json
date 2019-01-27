@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "sass main.scss dist/css/bootstrap.css && csso dist/css/bootstrap.css --output dist/css/bootstrap.min.css",
+    "css:watch": "sass --watch  main.scss dist/css/bootstrap.css",
+    "minify": "csso dist/css/bootstrap.css --output dist/css/bootstrap.min.css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "csso": "^3.5.1",
+    "csso-cli": "^2.0.2"
+  }
+}
